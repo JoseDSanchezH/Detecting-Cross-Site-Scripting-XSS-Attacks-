@@ -1,5 +1,6 @@
 # Detecting-Cross-Site-Scripting-XSS-Attacks-
 
+
 ##Objective
 
 Cross-Site Scripting (XSS) is a client-side attack that occurs when a web application fails to sanitize user input, allowing attackers to inject and execute malicious JavaScript in a victim’s browser. As a SOC analyst, my job will be to detect XSS by identifying suspicious JavaScript payloads in HTTP requests, recognizing URL-encoded attack patterns, and correlating request frequency and user-agent behavior to distinguish automated scanning from legitimate user activity. Tools like Wireshark help analyze raw network traffic to identify injection attempts.
